@@ -1,0 +1,25 @@
+{
+  "name": "signoz-k8s",
+  "version": "1.0.0",
+  "description": "signoz setup on k3d with k8s integration",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bash toaster.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhildred/signoz-k8s.git"
+  },
+  "keywords": [
+    "signoz",
+    "k3d",
+    "k8s"
+  ],
+  "author": "Rich Hildred",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhildred/signoz-k8s/issues"
+  },
+  "homepage": "https://github.com/rhildred/signoz-k8s#readme"
+}
